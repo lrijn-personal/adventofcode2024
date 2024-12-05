@@ -4,7 +4,6 @@ column2= []
 
 with open(file_path, 'r') as file:
     for line in file:
-        print(line)
         int1, int2 = line.split()
         column1.append(int(int1))
         column2.append(int(int2))
